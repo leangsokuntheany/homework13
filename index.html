@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>homework13</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.css">
+  <link rel="stylesheet" href="hover.css">
+  <style>
+
+   
+.hvr-underline-from-left:before{
+    background: rgb(255, 0, 0) !important;
+}
+
+    .hero-info {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+    }
+
+    .carousel img {
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<body class="position-relative">
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="#"><h3>UpconStruction</h3></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav d-flex ms-auto align-items-center d-inline-block">
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-left active text-white" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item dropdown position-relative">
+                <a class="nav-link hvr-underline-from-left" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  <span class="dropdown-toggle text-white">DROPDOWN</span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Dropdown1</a></li>
+                  <li class="position-relative"><a class="dropdown-item" href="#">Deep Dropdown</a> </li>
+                  <li><a class="dropdown-item" href="#">Dropdown2</a></li>
+                  <li><a class="dropdown-item" href="#">Dropdown3</a></li>
+                  <li><a class="dropdown-item" href="#">Dropdown4</a></li>
+
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-left text-white " href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-left text-white" href="#">SERVICE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-left text-white" href="#">PROJECTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-left text-white" href="#">BLOG</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hvr-underline-from-left text-white" href="#">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero h-100 w-100">
+    <div class="hero-info position-absolute d-flex align-items-center top-0">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-xl-6">
+            <h1 class=" text-white text-center ">
+              Welcome to <br> 
+              UpConstruction</h1>
+            <div class="text my-4"></div>
+            <p class="text-white text-center ">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Sint est perspiciatis quam praesentium, numquam deleniti cum ut obcaecati corporis illum!jhafjhdjkfhjfhuie
+              djhfasfeiuowufyrehjasdfkldsalkfjpwoeurj kdfjie klaleowp kfjsdiaoi!!
+            </p>
+            <div class="text-center py-3">
+              <button type="button" class="btn btn-outline-warning text-white py-2 px-5 rounded-5 fw-semibold fs-5">Get
+                Started</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="position-absolute w-100 h-100 top-0 z-n1">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active " data-bs-interval="4000">
+            <span class="w-100 h-100 bg-black opacity-50 position-absolute"></span>
+            <img src="img/hero-carousel/hero-carousel-1.jpg" class="d-block w-100" alt="...">
+            
+          </div>
+          <div class="carousel-item " data-bs-interval="4000">
+            <span class="w-100 h-100 bg-black opacity-50 position-absolute"></span>
+            <img src="img/hero-carousel/hero-carousel-2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <span class="w-100 h-100 bg-black opacity-50 position-absolute"></span>
+            <img src="img/hero-carousel/hero-carousel-3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <span class="w-100 h-100 bg-black opacity-50 position-absolute"></span>
+            <img src="img/hero-carousel/hero-carousel-4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <span class="w-100 h-100 bg-black opacity-50 position-absolute"></span>
+            <img src="img/hero-carousel/hero-carousel-5.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+
+
+  </section>
+  <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
